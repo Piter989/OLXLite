@@ -1,0 +1,11 @@
+version: '3.1'
+services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - "1111:1111"
+    environment:
+      POSTGRESS_USERNAME: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRESS_DB: blog
