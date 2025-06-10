@@ -1,0 +1,23 @@
+olxLite-bff/.vscode/settings.json
+
+# Java / Maven / Gradle
+olxLite-bff/target/
+*.war
+*.ear
+
+# IntelliJ IDEA
+olxLite-bff/.idea/
+*.iml
+
+# VS Code
+olxLite-bff/.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
